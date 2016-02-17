@@ -9,4 +9,4 @@ If nobody has, [open an issue on GitHub](https://github.com/wixtoolset/issues/is
 
 Issues are triaged at weekly online meetings, generally held Fridays at noon Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://localhost:8080/documentation/mailinglist/#wix-devs) mailing list.
 
-Note that discussions are best held on the mailing lists, not in issues. Please do not open issues requesting support or debugging help.
+Note that discussions are best held on the mailing lists, not in issues. Please do not open issues requesting support or debugging help; first start a thread on the [wix-users](http://localhost:8080/documentation/mailinglist/#wix-users) mailing list and open an issue if the discussion suggests a bug in the WiX Toolset.
