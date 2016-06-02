@@ -1,5 +1,16 @@
 Please provide answers to the following questions to help us narrow down, reproduce, and fix the problem. Fill out one section and delete the others.
 
+
+## Triage
+
+Issues are triaged at [online meetings](https://www.firegiant.com/blog/), generally held alternate Tuesdays at 9:30 a.m. Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://wixtoolset.org/documentation/mailinglist/#wix-devs) mailing list.
+
+
+## Discussions and support
+
+Note that discussions are best held on the mailing lists, not in issues. Please do not open issues requesting support or debugging help; first start a thread on the [wix-users](http://wixtoolset.org/documentation/mailinglist/#wix-users) mailing list and open an issue if the discussion suggests a bug in the WiX Toolset or that a feature request is appropriate.
+
+
 ## Bugs
 
 If this issue is a bug:
@@ -44,13 +55,3 @@ If this issue is a feature request:
 * Describe what you'd like the new feature to do.
 
 > (There's no need to design it but suggestions are appreciated.)
-
-
-## Triage
-
-Issues are triaged at [online meetings](https://www.firegiant.com/blog/), generally held alternate Tuesdays at 9:30 a.m. Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://wixtoolset.org/documentation/mailinglist/#wix-devs) mailing list.
-
-
-## Discussions and support
-
-Note that discussions are best held on the mailing lists, not in issues. Please do not open issues requesting support or debugging help; first start a thread on the [wix-users](http://wixtoolset.org/documentation/mailinglist/#wix-users) mailing list and open an issue if the discussion suggests a bug in the WiX Toolset or that a feature request is appropriate.
