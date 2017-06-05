@@ -23,6 +23,10 @@ If this issue is a bug:
 
 > (Visual Studio version, including year and update)
 
+* Which version of the WiX Toolset Visual Studio Extension are you building with (if any)?
+
+> (WiX Toolset Visual Studio Extension version in major.minor.release.build format)
+
 * Which version of .NET are you building with?
 
 > (.NET version)
