@@ -3,7 +3,7 @@ Please provide answers to the following questions to help us narrow down, reprod
 
 ## Triage
 
-Issues are triaged at [online meetings](https://www.firegiant.com/blog/), generally held alternate Tuesdays at 9:30 a.m. Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://wixtoolset.org/documentation/mailinglist/#wix-devs) mailing list.
+Issues are triaged at [online meetings](https://www.firegiant.com/blog/), generally held alternate Thursdays at 9:30 a.m. Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://wixtoolset.org/documentation/mailinglist/#wix-devs) mailing list.
 
 
 ## Discussions and support
