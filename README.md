@@ -1,4 +1,4 @@
-This is the repo for bugs and features requests for the WiX Toolset.
+This is the repo for bugs, features requests, and discussions for the WiX Toolset.
 
 [Search or open issues](https://github.com/wixtoolset/issues/issues)
 
