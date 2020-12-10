@@ -3,12 +3,12 @@ Please provide answers to the following questions to help us narrow down, reprod
 
 ## Triage
 
-Issues are triaged at [online meetings](https://www.firegiant.com/blog/), generally held alternate Thursdays at 9:30 a.m. Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://wixtoolset.org/documentation/mailinglist/#wix-devs) mailing list.
+Issues are triaged at [online meetings](https://www.firegiant.com/blog/), generally held alternate Thursdays at 9:30 a.m. Pacific time (UTC-7/UTC-8). Meeting requests are sent to the [wix-devs](http://wixtoolset.org/documentation/mailinglist/#wix-devs) and wix-users mailing lists, as well as in Discussions.
 
 
 ## Discussions and support
 
-Note that discussions are best held on the mailing lists, not in issues. Please do not open issues requesting support or debugging help; first start a thread on the [wix-users](http://wixtoolset.org/documentation/mailinglist/#wix-users) mailing list and open an issue if the discussion suggests a bug in the WiX Toolset or that a feature request is appropriate.
+Note that discussions are best held on the mailing lists not in issues. Please do not open issues requesting support or debugging help; first start a thread on the [wix-users](http://wixtoolset.org/documentation/mailinglist/#wix-users) mailing list and open an issue if the discussion suggests a bug in the WiX Toolset or that a feature request is appropriate. You can also try out the beta [Discussions](https://github.com/wixtoolset/issues/discussions?discussions_q=category%3AQuestions) feature.
 
 
 ## Bugs
