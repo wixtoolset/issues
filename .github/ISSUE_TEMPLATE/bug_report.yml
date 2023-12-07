@@ -1,0 +1,85 @@
+name: 🐞 Bug Report
+description: Found a problem while using WiX?
+labels: [ "triage" ]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## FireGiant Support Customer?
+
+        If you are a [FireGiant Support Customer](https://www.firegiant.com/services/support-programs/) you can [submit bugs privately](https://support.firegiant.com/requests/new)
+
+        ---
+
+  - type: input
+    id: wixversion
+    attributes:
+      label: WiX Version
+      placeholder: '4.0.3'
+    validations:
+      required: true
+
+  - type: input
+    id: buildversion
+    attributes:
+      label: .NET or MSBuild or Visual Studio Version
+      description: Run "dotnet --version" or "msbuild --version" or click the Visual Studio "Help" menu, choose "About Visual Studio" and look for "Current Version".
+      placeholder: '.NET 8.0.100 -or- MSBuild version 17.8.3+195e7f5a3 for .NET Framework'
+    validations:
+      required: true
+
+  - type: input
+    id: buildversion
+    attributes:
+      label: HeatWave Version
+      description: If building in Visual Studio, click the Visual Studio "Help" menu, choose "About Visual Studio" and find "FireGiant HeatWave" in the Installed products list.
+      placeholder: '1.0.2.1'
+    validations:
+      required: true
+
+  - type: input
+    id: winversion
+    attributes:
+      label: Windows Version
+      description: To find the Windows Version, run winver.exe.
+      placeholder: 'Win11 23H2'
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repro Repo
+      description: Create a public GitHub repo with the minimal set of code (.wixproj/.wxs/.wxl) required to reproduce the problem.
+      placeholder: 'https://github.com/<userid>/<repo>'
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Repro Steps
+      description: Provide the steps necessary to reproduce the issue.
+      value: |
+        1. 
+        2. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result
+      description: What did you see that was unexpected?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+      description: What did you expect to see?
+
+  - type: markdown
+    attributes:
+      value: |
+        If you struggle to provide the information above, start by [asking a question](https://github.com/orgs/wixtoolset/discussions/new?category=questions) instead.
