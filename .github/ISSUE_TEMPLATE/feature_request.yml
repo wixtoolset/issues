@@ -1,0 +1,38 @@
+name: ⚒️ Feature Request
+description: Create a WiX Improvement Proposal to describe the feature request.
+labels: [ "triage", "wip" ]
+
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: |
+        Start with user stories. Follow the standard user story format "As a role, I can accomplish task with proposal or benefit from proposal.".  Feel free to add more than one user story.
+
+        There are a couple of standard roles in WiX that you can use to start each story:
+        * As a WiX developer, ... - someone like you that works on the WiX Toolset itself to improve it.
+        * As a setup developer, ... - a user of the WiX Toolset that builds installation packages.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: |
+        The Proposal section of the WIP is a fairly freeform description of the feature or process improvement. Provide the motivation for the proposal. Describe how the proposal works. List examples, particularly source code, that demonstrates how the improvement will be used. The bulk of the WIP goes here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: considerations
+    attributes:
+      label: Considerations
+      description: |
+        Capture any issues that come to mind, or are raised later in the comments in this Considerations section. As appropriate, explain the trade offs of the proposed design and why a particular decision was made. This section may provide the most value for developers and users that follow later so do not be afraid to list everything that comes to mind. Rare is it that a proposal doesn't have some negatives to consider.
+
+  - type: markdown
+    attributes:
+      value: |
+        If you struggle to provide the information above, start by [asking a question](https://github.com/orgs/wixtoolset/discussions/new?category=questions) instead.
