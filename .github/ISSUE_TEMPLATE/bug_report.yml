@@ -6,9 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## FireGiant Support Customer?
+        ### FireGiant Support Customer?
 
-        If you are a [FireGiant Support Customer](https://www.firegiant.com/services/support-programs/) you can [submit bugs privately](https://support.firegiant.com/requests/new)
+        If you are a [FireGiant Support Customer](https://www.firegiant.com/services/support-programs/), you can [submit bugs and questions privately](https://support.firegiant.com/requests/new).
+
+        ### ⚠️ Everyone Else
+
+        The WiX project maintainers do NOT use issues for questions or for help debugging why your code doesn't work; for that, [ask a question on Discussions](https://github.com/orgs/wixtoolset/discussions/new?category=questions).
 
         ---
 
@@ -79,7 +83,19 @@ body:
       label: Expected Result
       description: What did you expect to see?
 
+  - type: checkboxes
+    attributes:
+      label: Acknowledgements
+      description: A surprising number of people skip over sections of the bug report, creating extra work for us. There are hundreds of thousands of you and only a couple of maintainers who are working for free. Please take the time to fill out the form completely.
+      options:
+        - label: I acknowledge that this is a fully completed bug report. It is not a question or attempt to get help debugging my issue (because those should be sent to Discussions).
+          required: true
+
   - type: markdown
     attributes:
       value: |
-        If you struggle to provide the information above, start by [asking a question](https://github.com/orgs/wixtoolset/discussions/new?category=questions) instead.
+        ---
+
+        Finally, remember that the WiX Toolset is an Open Source project. Unless you are [paying for support](https://www.firegiant.com/services/support-programs/), everyone here is a volunteer and working because they want to, not because they have to. It also means that you have full access to the source code to help yourself and, in turn, help us improve the WiX Toolset.
+
+        Reminder: if you want to ask a question, [start with Discussions](https://github.com/orgs/wixtoolset/discussions/new?category=questions).
