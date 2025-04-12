@@ -1,6 +1,7 @@
 name: ⚒️ Feature Request
 description: Create a WiX Improvement Proposal to describe the feature request.
 labels: [ "triage", "wip" ]
+type: feature
 
 body:
   - type: textarea
@@ -36,3 +37,9 @@ body:
     attributes:
       value: |
         If you struggle to provide the information above, start by [asking a question](https://github.com/orgs/wixtoolset/discussions/new?category=questions) instead.
+
+  - type: checkboxes
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I am paying the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) by [sponsoring the `wixtoolset` project](https://github.com/sponsors/wixtoolset) because I support the maintainers.

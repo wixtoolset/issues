@@ -1,0 +1,20 @@
+name: ⛑️ Maintainer Task
+description: This issue template should only be used by WiX Toolset maintainers to create work items for themselves.
+labels: [ "triage" ]
+type: task
+
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Task
+      description: |
+        Task to complete. Remember to provide enough detail so that triage can review the task without additional input.
+
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        This template is only for use by maintainers to create work items for themselves. Issues opened by non-maintainers with this template will be deleted without comment.
