@@ -12,4 +12,4 @@ body:
       description: |
         This forum is brought to you by the WiX Toolset maintainers. If you use WiX to generate revenue, you should pay the [project's maintenance fee](https://github.com/sponsors/wixtoolset). If you already pay the fee, check the box below to be recognized for your support.
       options:
-        - label: I pay the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) by [sponsoring the `wixtoolset` project](https://github.com/sponsors/wixtoolset) because I support the maintainers.
+        - label: I (or an organization I'm a member of) pay the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) by [sponsoring the `wixtoolset` project](https://github.com/sponsors/wixtoolset) because I support the maintainers.

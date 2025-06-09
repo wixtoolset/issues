@@ -42,4 +42,4 @@ body:
     attributes:
       label: Acknowledgements
       options:
-        - label: I am paying the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) by [sponsoring the `wixtoolset` project](https://github.com/sponsors/wixtoolset) because I support the maintainers.
+        - label: I (or an organization I'm a member of) pay the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) by [sponsoring the `wixtoolset` project](https://github.com/sponsors/wixtoolset) because I support the maintainers.

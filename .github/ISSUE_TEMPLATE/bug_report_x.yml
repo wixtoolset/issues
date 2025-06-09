@@ -83,5 +83,5 @@ body:
       options:
         - label: I acknowledge that this is a fully completed bug report. It is not a question or attempt to get help debugging my issue (because those should be [sent to Discussions](https://github.com/orgs/wixtoolset/discussions/new?category=questions)).
           required: true
-        - label: I am paying the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) by [sponsoring the `wixtoolset` project](https://github.com/sponsors/wixtoolset) because I generate revenue from my use of the WiX Toolset.
+        - label: I (or an organization I'm a member of) pay the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) by [sponsoring the `wixtoolset` project](https://github.com/sponsors/wixtoolset) because I generate revenue from my use of the WiX Toolset.
           required: true
